@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trial_2</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header"></header>
+    <h1 id="title">Padmnabh & Youssef Survey Form</h1>
+    <p id="description"> this is a form that we did in our Trial of Microverse</p>
+    <form action="" method="get" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email"required>
+        <label for="number" id="number-label">Age(optional)</label>
+        <input type="number" name="number" id="number" class="form-control" placeholder="Age" min="10" max="99">
+        <p>Choose your nationality</p>
+        <select name="nationality" id="dropdown">
+            <option value="India">Indian</option>
+            <option value="Morocco">Moroccan</option>
+            <option value="Japan">Japanese</option>
+        </select>
+        <p>Select your hobbies</p>
+        <input type="checkbox" name="hobbies" class="input-checkbox" value="reading">
+        <input type="checkbox" name="hobbies" class="input-checkbox" value="swimming">
+        <input type="checkbox" name="hobbies" class="input-checkbox" value="traveling">
+        <p>Select your gender</p>
+        <input type="radio" name="gender" class="input-radio" value="male" checked="checked">
+        <input type="radio" name="gender" class="input-radio"  value="female">
+        <p>Add your comments</p>
+        <textarea name="comments" class="input-textarea" id="comments" cols="30" rows="10"></textarea>
+        <input type="submit" class="submit-button" value="Submit" id="submit">
+
+    </form>
+</div>
+</body>
+</html>
